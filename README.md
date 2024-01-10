@@ -2,7 +2,7 @@ I tackle the problem of finding the best minimally connected structure and param
 
 $$H(s)=-\sum_{ij}J_{ij} s_is_j - \sum_i h_i s_i$$
 
-First classes for a Graph, a variable and a factor are defined. Then we define the class needed to do Belief propagation: 'messages'. 
+At first, the classes for a Graph, a variable and a factor are defined. Then we define the class needed to do Belief propagation: 'messages'. 
 The Kruskal algorithm to find the best tree as from Chow Liu theorem is defined.
 Finally we use a recursive algorithm to sample from the tree.
 
